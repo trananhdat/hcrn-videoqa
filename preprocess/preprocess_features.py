@@ -227,7 +227,7 @@ if __name__ == '__main__':
 
     # annotation files
     if args.dataset == 'tgif-qa':
-        args.annotation_file = '/ceph-g/lethao/datasets/tgif-qa/csv/Total_{}_question.csv'
+        args.annotation_file = '/kaggle/working/tgif-qa/dataset/Total_{}_question.csv'
         args.video_dir = '/ceph-g/lethao/datasets/tgif-qa/gifs'
         args.outfile = 'data/{}/{}/{}_{}_{}_feat.h5'
         video_paths = tgif_qa.load_video_paths(args)
