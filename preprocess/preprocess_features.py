@@ -1,6 +1,6 @@
 import argparse, os
 import h5py
-from scipy.transform import resize
+from skimage.transform import resize as imresize
 import skvideo.io
 from PIL import Image
 
